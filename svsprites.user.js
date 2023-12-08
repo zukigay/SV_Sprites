@@ -5,6 +5,9 @@
 // @match        https://replay.pokemonshowdown.com/*
 // @match        https://play.pokemonshowdown.com/*
 // @grant        none
+// @author       zuki (https://github.com/zooki2006)
+// @namespace    https://github.com/zooki2006/SV_Sprites
+// @supportURL   https://github.com/zooki2006/SV_Sprites
 // ==/UserScript==
 
 
