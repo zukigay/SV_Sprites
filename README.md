@@ -2,7 +2,7 @@
 
 This repo is for a showdown plugin which replaces missing gen 9 models with model gifs from [here](https://drive.google.com/drive/folders/1hj-Wbkm6Qq3HPyqVu35BhID1zUQF93j4) credit to adamsb0303 for them.
 
-[Click here to install](https://gist.github.com/zooki2006/0b036288af69e3111c0eed17e9c44ed7/raw/9a39f6f08423443f3119847fc6eac377adeba51a/zuki_sv_models.user.js) with Violentmonkey/Greasemonkey/Tampermonkey.
+[Click here to install](https://gist.github.com/zooki2006/7b632e9cae78eadf220368b0a2c5d4fe/raw/8bef70b7201dcfefdb58c60acd067980880ab3b1/svsprites.user.js) with Violentmonkey/Greasemonkey/Tampermonkey.
 
 [Click here to go to violentmonkeys home page, If you don't have it installed.](https://violentmonkey.github.io/)
 
