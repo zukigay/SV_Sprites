@@ -1,16 +1,21 @@
+// ==UserScript==
 // @name         zuki's extra sv models for showdown script
-// @version      1
+// @version      1.1
 // @description  a
 // @match        https://replay.pokemonshowdown.com/*
 // @match        https://play.pokemonshowdown.com/*
 // @grant        none
-// @compatible   Greasemonkey or Violentmonkey or Tampermonkey
 // ==/UserScript==
 
 
 var interval = 0.3;
-//apend "https://play.pokemonshowdown.com/sprites/gen5/" to the name of the mon you want to exclude
-const excudedmons = ["https://play.pokemonshowdown.com/sprites/gen5/terapagos.png","https://play.pokemonshowdown.com/sprites/gen5/ironcrown.png","https://play.pokemonshowdown.com/sprites/gen5/ragingbolt.png","https://play.pokemonshowdown.com/sprites/gen5/archaludon.png","https://play.pokemonshowdown.com/sprites/gen5/MissingNo.png", "https://play.pokemonshowdown.com/sprites/gen5/sinistcha.png", "https://play.pokemonshowdown.com/sprites/gen5/sinistcha-masterpiece.png", "https://play.pokemonshowdown.com/sprites/gen5/ogerpon-tealtera.png", "https://play.pokemonshowdown.com/sprites/gen5/ogerpon.png", "https://play.pokemonshowdown.com/sprites/gen5/ogerpon-cornerstone.png", "https://play.pokemonshowdown.com/sprites/gen5/ogerpon-cornerstonetera.png", "https://play.pokemonshowdown.com/sprites/gen5/ogerpon-wellspring.png", "https://play.pokemonshowdown.com/sprites/gen5/ogerpon-wellspringtera.png", "https://play.pokemonshowdown.com/sprites/gen5/ogerpon-hearthflame.png", "https://play.pokemonshowdown.com/sprites/gen5/ogerpon-hearthflametera.png"];
+const excudedmons = []
+const userexcudemons = ["terapagos", "terapagostera", "ironcrown","MissingNo","ragingbolt","archaludon","sinistcha","sinistcha-masterpiece","ogerpon-wellspring","ogerpon-wellspringtera.png","ogerpon-tealtera","ogerpon","ogerpon-cornerstone","ogerpon-cornerstonetera","ogerpon-hearthflame","ogerpon-hearthflametera","ursaluna","ursaluna-bloodmoon","enamorus","enamorus-therian","ababo","scattervein","hemogoblin","cresceidon","goodra-hisui"]
+
+for (let i = 0; i < userexcudemons.length; i++) {
+  excudedmons.push("https://play.pokemonshowdown.com/sprites/gen5/" + userexcudemons[i] + ".png");
+  excudedmons.push("https://play.pokemonshowdown.com/sprites/gen5-shiny/" + userexcudemons[i] + ".png");
+}
 
 function imgReplace() {
     var images = document.getElementsByTagName('img'),
@@ -26,3 +31,4 @@ function imgReplace() {
 }
 
 setInterval(imgReplace, interval * 1000);
+
