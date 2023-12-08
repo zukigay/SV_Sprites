@@ -4,6 +4,7 @@
 // @match        https://replay.pokemonshowdown.com/*
 // @match        https://play.pokemonshowdown.com/*
 // @grant        none
+// @compatible   Greasemonkey or Violentmonkey or Tampermonkey
 // ==/UserScript==
 
 
