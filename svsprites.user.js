@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         zuki's extra sv models for showdown script
-// @version      1.1
+// @version      1.2
 // @description  a
 // @match        https://replay.pokemonshowdown.com/*
 // @match        https://play.pokemonshowdown.com/*
