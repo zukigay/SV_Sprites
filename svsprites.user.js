@@ -14,7 +14,7 @@
 
 var interval = 0.3;
 const excudedmons = []
-const userexcudemons = ["dipplin", "terapagos", "terapagostera", "ironcrown","MissingNo","ragingbolt","archaludon","sinistcha","sinistcha-masterpiece","ogerpon-wellspring","ogerpon-wellspringtera.png","ogerpon-tealtera","ogerpon","ogerpon-cornerstone","ogerpon-cornerstonetera","ogerpon-hearthflame","ogerpon-hearthflametera","ursaluna","ursaluna-bloodmoon","enamorus","enamorus-therian","ababo","scattervein","hemogoblin","cresceidon","goodra-hisui"]
+const userexcudemons = ["palkia-origin", "dialga-origin", "dipplin", "terapagos", "terapagostera", "ironcrown","MissingNo","ragingbolt","archaludon","sinistcha","sinistcha-masterpiece","ogerpon-wellspring","ogerpon-wellspringtera.png","ogerpon-tealtera","ogerpon","ogerpon-cornerstone","ogerpon-cornerstonetera","ogerpon-hearthflame","ogerpon-hearthflametera","ursaluna","ursaluna-bloodmoon","enamorus","enamorus-therian","ababo","scattervein","hemogoblin","cresceidon","goodra-hisui"]
 
 for (let i = 0; i < userexcudemons.length; i++) {
   excudedmons.push("https://play.pokemonshowdown.com/sprites/gen5/" + userexcudemons[i] + ".png");
