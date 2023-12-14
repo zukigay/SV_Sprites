@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         zuki's extra sv models for showdown script
-// @version      1.3
+// @version      1.4
 // @description  a
 // @match        https://replay.pokemonshowdown.com/*
 // @match        https://play.pokemonshowdown.com/*
@@ -29,8 +29,8 @@ function imgReplace() {
         img = images[i];
         if (img.src.includes('https://play.pokemonshowdown.com/sprites/gen5') && !img.src.includes('-back') && !img.src.includes('substitute') && includedmons.includes(img.src))
         {
-            img.src = img.src.replace('https://play.pokemonshowdown.com/sprites/gen5/', 'https://raw.githubusercontent.com//zooki2006/SV_Sprites/main/padded/').replace('.png', '.gif');
-            img.src = img.src.replace('https://play.pokemonshowdown.com/sprites/gen5-shiny/', 'https://raw.githubusercontent.com//zooki2006/SV_Sprites/main/padded/').replace('.png', '-s.gif');
+            img.src = img.src.replace('https://play.pokemonshowdown.com/sprites/gen5/', 'https://raw.githubusercontent.com//zooki2006/SV_Sprites/main/paddedmax/').replace('.png', '.gif');
+            img.src = img.src.replace('https://play.pokemonshowdown.com/sprites/gen5-shiny/', 'https://raw.githubusercontent.com//zooki2006/SV_Sprites/main/paddedmax/').replace('.png', '-s.gif');
       }
     }
 }
