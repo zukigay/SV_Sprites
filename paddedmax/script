@@ -1,0 +1,16 @@
+#!/bin/sh
+#sizevar="610x610"
+sizevar="305x305"
+compression="0.5"
+# put while loop here
+filename=""
+for i in *.gif
+do
+echo $i
+filename="$i"
+filenameoutput="temp.gif"
+gifsicle --scale "$compression" -i "$filename" > "$filenameoutput"
+mv "$filenameoutput" "$filename"
+#filename="$filenameoutput"
+#convert "$filename" -coalesce -repage 0x0 -background none -gravity center -extent "$sizevar" +repage "$filenameoutput"
+done
