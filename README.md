@@ -6,5 +6,5 @@ This repo is for a showdown plugin which replaces missing gen 9 models with mode
 
 [Click here to go to violentmonkeys home page, If you don't have it installed.](https://violentmonkey.github.io/)
 
-Youtube Video Demo Available Here:
+(Outdated)Youtube Video Demo Available Here:
 [![Video demoing the plugin](http://raw.githubusercontent.com/zooki2006/SV_Sprites/main/youtubedemo_thumbnail.png)](https://youtu.be/ipcDc2zNKEc)
